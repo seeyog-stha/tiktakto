@@ -47,3 +47,18 @@
     height: 100px;
     width: 100px;
 }
+@media screen and (max-width:900px) {
+    *{
+        font-size: 1rem;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .content{
+        height: 70vh;
+        width: 100vw;
+    }
+    .btn .winnerblock{
+        height: 5vh;
+    }
+}
